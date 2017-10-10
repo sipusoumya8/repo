@@ -1,0 +1,681 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #fff;
+}
+
+@media (min-width:1200px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        border: 1px solid red;
+    }
+
+    .left_container {
+        width: 60%;
+        float: left;
+    }
+
+    .right_container {
+        width: 38%;
+        margin-top: 16.2%;
+    }
+
+    .profile_picture {
+        width: 35%;
+    }
+
+    .names {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 1%;
+        margin-bottom: 10%;
+
+    }
+
+    .about h4,
+    .work_experience h4,
+    .personal_data h4,
+    .formal_education h4,
+    .skills h4,
+    .formal_education h4 {
+        font-family: MyriadPro-Bold, AdobeInvisFont, MyriadPro-Regular;
+        background-color: #dbdbdb;
+        padding-left: 2%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+
+    }
+
+    .about p {
+        padding-left: 1%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: justify;
+    }
+
+    .list_pic {
+        float: left;
+        height: 23px;
+        width: 3%;
+        padding-left: 1%
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .year {
+        float: left;
+        height: 23px;
+        width: 13%;
+        line-height: 23px;
+        text-align: center;
+
+    }
+
+    .content {
+        width: 80%;
+        margin-left: 17%;
+    }
+
+    .all {
+        margin-top: 5%;
+    }
+
+    .pdl {
+        float: left;
+        width: 33%;
+
+    }
+
+    .data {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .list_pics {
+        float: left;
+        height: 23px;
+        width: 5%;
+        padding-left: 1%
+    }
+
+    .iconss {
+        width: 100%;
+    }
+
+    .years {
+        float: left;
+        height: 23px;
+        width: 22%;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .formal_education {
+        margin-bottom: 0%;
+    }
+
+    .contents {
+        width: 82%;
+        margin-left: 28%;
+    }
+
+    .g {
+        padding-top: 4%;
+        float: left;
+    }
+
+    .g p {
+        padding-bottom: 9%;
+    }
+
+    .part {
+        padding-bottom: 4.4%;
+    }
+
+    .parts {
+        padding-bottom: 5%;
+    }
+
+    .red {
+        color: #d04844;
+    }
+
+    .png {
+        width: 24%;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .head_img {
+        margin-left: 20%;
+        width: 53%;
+        margin-top: 1%;
+    }
+
+    .pdr {
+        margin-left: 20%;
+    }
+
+    .vishal {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+<!----------------------------------------------------------------------------- > @media (min-width:992px) and (max-width:1199px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        border: 1px solid blue;
+    }
+
+    .left_container {
+        width: 60%;
+        float: left;
+    }
+
+    .right_container {
+        width: 38%;
+        float: right;
+        margin-top: 16.2%;
+    }
+
+    .profile_picture {
+        width: 35%;
+    }
+
+    .names {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 1%;
+        margin-bottom: 10%;
+
+    }
+
+    .about h4,
+    .work_experience h4,
+    .personal_data h4,
+    .formal_education h4,
+    .skills h4,
+    .formal_education h4 {
+        font-family: MyriadPro-Bold, AdobeInvisFont, MyriadPro-Regular;
+        background-color: #dbdbdb;
+        padding-left: 2%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+
+    }
+
+    .about p {
+        padding-left: 1%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: justify;
+    }
+
+    .list_pic {
+        float: left;
+        height: 23px;
+        width: 3%;
+        padding-left: 1%
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .year {
+        float: left;
+        height: 23px;
+        width: 13%;
+        line-height: 23px;
+        text-align: center;
+
+    }
+
+    .content {
+        width: 80%;
+        margin-left: 17%;
+    }
+
+    .all {
+        margin-top: 5%;
+    }
+
+    .pdl {
+        float: left;
+        width: 33%;
+
+    }
+
+    .data {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .list_pics {
+        float: left;
+        height: 23px;
+        width: 5%;
+        padding-left: 1%
+    }
+
+    .iconss {
+        width: 100%;
+    }
+
+    .years {
+        float: left;
+        height: 23px;
+        width: 22%;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .formal_education {
+        margin-bottom: 0%;
+    }
+
+    .contents {
+        width: 82%;
+        margin-left: 28%;
+    }
+
+    .g {
+        padding-top: 4%;
+        float: left;
+    }
+
+    .g p {
+        padding-bottom: 9%;
+    }
+
+    .part {
+        padding-bottom: 4.4%;
+    }
+
+    .parts {
+        padding-bottom: 5%;
+    }
+
+    .red {
+        color: #d04844;
+    }
+
+    .png {
+        width: 24%;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .head_img {
+        margin-left: 20%;
+        width: 53%;
+        margin-top: 1%;
+    }
+
+    .pdr {
+        margin-left: 20%;
+    }
+
+    .vishal {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+<!----------------------------------------------------------------------------- > @media (min-width:768px) and (max-width:991px) {
+    .wrapper {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .left_container {
+        width: 60%;
+        float: left;
+    }
+
+    .right_container {
+        width: 38%;
+        float: right;
+        margin-top: 16.2%;
+    }
+
+    .profile_picture {
+        width: 35%;
+    }
+
+    .names {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 1%;
+        margin-bottom: 10%;
+
+    }
+
+    .about h4,
+    .work_experience h4,
+    .personal_data h4,
+    .formal_education h4,
+    .skills h4,
+    .formal_education h4 {
+        font-family: MyriadPro-Bold, AdobeInvisFont, MyriadPro-Regular;
+        background-color: #dbdbdb;
+        padding-left: 2%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+
+    }
+
+    .about p {
+        padding-left: 1%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: justify;
+    }
+
+    .list_pic {
+        float: left;
+        height: 23px;
+        width: 3%;
+        padding-left: 1%
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .year {
+        float: left;
+        height: 23px;
+        width: 13%;
+        line-height: 23px;
+        text-align: center;
+
+    }
+
+    .content {
+        width: 80%;
+        margin-left: 17%;
+    }
+
+    .all {
+        margin-top: 5%;
+    }
+
+    .pdl {
+        float: left;
+        width: 33%;
+
+    }
+
+    .data {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .list_pics {
+        float: left;
+        height: 23px;
+        width: 5%;
+        padding-left: 1%
+    }
+
+    .iconss {
+        width: 100%;
+    }
+
+    .years {
+        float: left;
+        height: 23px;
+        width: 22%;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .formal_education {
+        margin-bottom: 0%;
+    }
+
+    .contents {
+        width: 82%;
+        margin-left: 28%;
+    }
+
+    .g {
+        padding-top: 4%;
+        float: left;
+    }
+
+    .g p {
+        padding-bottom: 9%;
+    }
+
+    .part {
+        padding-bottom: 4.4%;
+    }
+
+    .parts {
+        padding-bottom: 5%;
+    }
+
+    .red {
+        color: #d04844;
+    }
+
+    .png {
+        width: 24%;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .head_img {
+        margin-left: 20%;
+        width: 53%;
+        margin-top: 1%;
+    }
+
+    .pdr {
+        margin-left: 20%;
+    }
+
+    .vishal {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+<!---------------------------------------------------------------------------- > @media (max-width:767px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .left_container {
+        width: 100%;
+        float: left;
+    }
+
+    .right_container {
+        width: 100%;
+        float: left;
+        margin-top: 16.2%;
+    }
+
+    .profile_picture {
+        width: 35%;
+    }
+
+    .names {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 1%;
+        margin-bottom: 10%;
+
+    }
+
+    .about h4,
+    .work_experience h4,
+    .personal_data h4,
+    .formal_education h4,
+    .skills h4,
+    .formal_education h4 {
+        font-family: MyriadPro-Bold, AdobeInvisFont, MyriadPro-Regular;
+        background-color: #dbdbdb;
+        padding-left: 2%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+
+    }
+
+    .about p {
+        padding-left: 1%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: justify;
+    }
+
+    .list_pic {
+        float: left;
+        height: 23px;
+        width: 3%;
+        padding-left: 1%
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .year {
+        float: left;
+        height: 23px;
+        width: 13%;
+        line-height: 23px;
+        text-align: center;
+
+    }
+
+    .content {
+        width: 80%;
+        margin-left: 17%;
+    }
+
+    .all {
+        margin-top: 5%;
+    }
+
+    .pdl {
+        float: left;
+        width: 33%;
+
+    }
+
+    .data {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .list_pics {
+        float: left;
+        height: 23px;
+        width: 5%;
+        padding-left: 1%
+    }
+
+    .iconss {
+        width: 100%;
+    }
+
+    .years {
+        float: left;
+        height: 23px;
+        width: 22%;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .formal_education {
+        margin-bottom: 0%;
+    }
+
+    .contents {
+        width: 82%;
+        margin-left: 28%;
+    }
+
+    .g {
+        padding-top: 4%;
+        float: left;
+    }
+
+    .g p {
+        padding-bottom: 9%;
+    }
+
+    .part {
+        padding-bottom: 4.4%;
+    }
+
+    .parts {
+        padding-bottom: 5%;
+    }
+
+    .red {
+        color: #d04844;
+    }
+
+    .png {
+        width: 24%;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .head_img {
+        margin-left: 20%;
+        width: 53%;
+        margin-top: 1%;
+    }
+
+    .pdr {
+        margin-left: 20%;
+    }
+
+    .vishal {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+}
